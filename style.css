@@ -164,6 +164,15 @@ h2{
 
  /* section three end */
 
+ /* .playy_Instantly_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    margin-left: 20px;
+
+    
+ } */
  .playy_Instantly_container{
     display: flex;
     justify-content: space-around;
@@ -175,24 +184,36 @@ h2{
  }
 
  .playy_container{
-     display: inline;
+     /* display: inline; */
     padding-bottom: 104px;
     padding-left: 169px; 
     margin-left: 0px;
 
  }
-.playy_img_container{
+/* .playy_img_container{
     display: inline;
+   height: 775px;
+   padding-left: 150px;
+   
+        
+}  */
+
+.playy_img_container{
+    position: relative;
    height: 775px;
    /* padding-left: 150px; */
    
         
 } 
- .img1{
+
+ /* .img1{
     width: 100%;
 
+}  */
+.img1{
+    width: 550px;
 } 
-.img2{
+/* .img2{
     
     width: 342;
     padding: 0px;
@@ -202,7 +223,21 @@ h2{
    right: 170px;
    
 
-}
+} */
+.img2{
+    
+    width: 250px;
+        
+    padding: 0px;
+        
+    position: absolute;
+        
+    bottom: 137px;
+        
+    /* margin-right: 360px; */
+        
+    right: 356px;
+    }
 .playy{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
@@ -217,7 +252,6 @@ background-clip: text;
     text-align: center;
  }
  .playy_containerr{
-    /* display: inline; */
     padding-top: 100px; 
     padding-right: 140px;
    
@@ -391,22 +425,33 @@ background-clip: text;
         display: inline;
         width: 100;
     }
-    .playy_Instantly_container{
-        display: inline;
-    
+    .playy_Instantly_container {
+        flex-direction: column;
     }
-    .playy_container{
+
+    .playy_container {
         text-align: center;
-        margin-left: 70px;
+        margin-left: -156px;
     }
-   .img1  img { 
-        width: 100%; 
-        
-     }
-     .img2 img{
-         right: 100px;
-         padding: 20px;
-     }
+    .playy_containerr {
+        padding-right: 0px;
+    }
+    
+   
+     .img1{
+        width: 378px;
+        margin-left: -11px;
+    } 
+     
+      .img2{
+        width: 206px;
+    
+bottom: 298px;
+    
+
+    
+right: 197px;
+      }
     .img3 img{
         width: 100%;
         
@@ -423,16 +468,20 @@ background-clip: text;
     
       
     .playy_game_container{
-        display: inline;
-        
+        /* display: inline; */
+        flex-direction: column-reverse;
     } 
     .Careers_section{
-        display: inline;
+        /* display: inline; */
+        flex-direction: column;
+        margin-top: -243px;
     }
     .careeres_container{
-        display: inline;
-        background-color: #8f3e68;
+        /* display: inline; */
+        /* background-color: #8f3e68; */
+        padding-top: 70px;
     }
+    
     .Careers_img img{
         width: 100%;
     }
@@ -457,11 +506,16 @@ background-clip: text;
     }
     .footer_des{
         margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
     .terms_container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-left: 0px;
+    }
+    .new_container{
+        margin-top: -368px;
     }
 }
     
