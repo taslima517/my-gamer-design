@@ -256,6 +256,22 @@ background-clip: text;
     padding-right: 140px;
    
  }
+ .img5{
+
+    
+        width: 250px;
+            
+        padding: 0px;
+            
+        position: absolute;
+            
+        bottom: 137px;
+            
+        /* margin-right: 360px; */
+            
+        right: 356px;
+        }
+ }
      
  .img3{
     width: 100%;
@@ -446,25 +462,21 @@ background-clip: text;
       .img2{
         width: 206px;
     
-bottom: 298px;
+       bottom: 298px;
     
 
     
-right: 197px;
+      right: 197px;
       }
-    .img3 img{
-        width: 100%;
-        
-    } 
-    
-    .img4 {
-        width: 342;
+      .img5 {
+        width: 250px;
         padding: 0px;
-        position: relative;
-        bottom: 165px;
-        
-        left: 30px;
+        position: absolute;
+        bottom: 255px;
+        /* margin-right: 360px; */
+        right: 0px;
     }
+    
     
       
     .playy_game_container{
